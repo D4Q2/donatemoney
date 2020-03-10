@@ -130,6 +130,12 @@
      // Code to take us to the donate page
      window.open('https://d4q2.github.io/donate');
    }
+  
+   function homePage()
+   {
+     // Code to take us to the donate page
+     window.open('https://d4q2.github.io/home');
+   }
 
    // And for the settings page
    function settingsPage()
@@ -178,6 +184,15 @@
         menu.appendChild(settingsButton);
         settingsButton.style.transform = "translateX(-20px)";
         settingsButton.onclick = settingsPage;
+      
+        // And also the same process for the home button
+        var homeButton = document.createElement("BUTTON");
+        homeButton.innerHTML = "Settings";
+        homeButton.setAttribute("class", "menuButton");
+        homeButton.setAttribute("id", "homeButton");
+        menu.appendChild(homeButton);
+        homeButton.style.transform = "translateX(-20px)";
+        homeButton.onclick = homePage;
      }
 
      else
@@ -208,7 +223,7 @@
   <div class="menu" id="menu"><button class="openMenu" id="openMenuButton" onclick="openMenu()">Menu</button></div>
   <div class="title">Mid-Atlantic SAFE</div>
   <div class="subtitle">Bringing toys to children in need</div>
-  <div class="image"><image src="bridge.png" width="500px"></image></div>  
+  <div class="twoWays">Two ways to donate! (Thanks in advance.)</div>  
   <div class="aboutHeader">About SAFE</div>
   <div class="aboutText"><i>No</i> donations will be sold. All donations are given to children in need for free.</div>
  </div>
