@@ -1,0 +1,132 @@
+
+  body
+  {
+    background-color: lightblue;
+  }
+
+
+  .menu 
+  { 
+    grid-area: menu;
+    background-color: coral;
+    margin-left: -10px;
+    margin-right: -9px;
+    margin-top: -8px;
+  }
+
+  .openMenu
+  {
+    width: 75px;
+    height: 30px;
+    float: right;
+    color: #010101; /* Text color */
+    background-color: transparent; /* Remove background color */
+    border: 2px solid #010101; /* Border thickness, line style, and color */
+    border-radius: 20px; /* Adds curve to border corners */
+    text-transform: uppercase; /* Make letters uppercase */
+    font-size: 12pt;
+  }
+
+  .menuButton
+  {
+    width: 75px;   /* how many pixels wide */
+    height: 30px;  /* how many pixels tall */
+    float: right;  /* Puts it to the right of other elements */
+    color: #010101; /* Text color */
+    background-color: transparent; /* Remove background color */
+    border: 2px solid #010101; /* Border thickness, line style, and color */
+    border-radius: 20px; /* Adds curve to border corners */
+    text-transform: uppercase; /* Make letters uppercase */
+    font-size: 8pt; /* font size */
+  }
+
+  .menuButton:active
+  {
+    width: 100px;   /* how many pixels wide */
+    height: 35px;  /* how many pixels tall */
+    float: right;  /* Puts it to the right of other elements */
+    color: #010101; /* Text color */
+    background-color: transparent; /* Remove background color */
+    border: 2px solid #010101; /* Border thickness, line style, and color */
+    border-radius: 20px; /* Adds curve to border corners */
+    text-transform: uppercase; /* Make letters uppercase */
+    font-size: 10pt; /* font size */
+  }
+
+  .title
+  {  
+    grid-area: title;
+    font-weight: bold;
+    text-align: center; 
+    font-size: 30pt;
+    background-color: coral;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .subtitle 
+  { 
+    grid-area: subtitle;
+    text-align: center;
+    font-size: 20pt;
+    padding: 20px 0;
+    background-color: coral;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  .twoWays
+  { 
+    grid-area: twoWays; 
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    padding: 20px 0;
+  }
+
+  .mailHeader
+  {  
+    grid-area: mailHeader; 
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 20px 0;
+  }
+
+  .emailHeader
+  { 
+    grid-area: emailHeader; 
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 20px 0;
+  }
+
+  .mailText
+  {  
+    grid-area: mailText; 
+    text-align: center;
+    font-size: 11pt;
+    padding: 20px 0;
+  }
+
+  .emailText
+  { 
+    grid-area: emailText; 
+    text-align: center;
+    font-size: 11pt;
+    padding: 20px 0;
+  }
+
+  .grid-container 
+  {
+    display: grid;
+    grid-template-areas:
+      'menu menu menu menu menu menu'
+      'title title title title title title'
+      'subtitle subtitle subtitle subtitle subtitle subtitle'
+      'twoWays twoWays twoWays twoWays twoWays twoWays'
+      'mailHeader mailHeader mailHeader emailHeader emailHeader emailHeader'
+      'mailText mailText mailText emailText emailText emailText'
+      'mailText mailText mailText emailText emailText emailText';
+  }
