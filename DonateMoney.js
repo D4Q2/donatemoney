@@ -2,13 +2,13 @@
    function donatePage()
    {
      // Code to take us to the donate page
-     window.open('https://d4q2.github.io/donate');
+     location.href = "https://d4q2.github.io/donate";
    }
   
    function homePage()
    {
      // Code to take us to the donate page
-     window.open('https://d4q2.github.io/home');
+     location.href = "https://d4q2.github.io/home";
    }
 
 
