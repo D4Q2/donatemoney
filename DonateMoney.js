@@ -1,13 +1,13 @@
-// A function to take us to the donate page
-   function donatePage()
+   // A function to take us to the help out page
+   function helpOutPage()
    {
      // Code to take us to the donate page
-     location.href = "https://d4q2.github.io/donate";
+     location.href = "https://d4q2.github.io/helpout";
    }
   
    function homePage()
    {
-     // Code to take us to the donate page
+     // Code to take us to the home page
      location.href = "https://d4q2.github.io/home";
    }
 
@@ -24,24 +24,24 @@
        var menu = document.getElementById("menu");
 
        // Create a button (in this case it will be the donate button)
-       var donateButton = document.createElement("BUTTON");
+       var helpOutButton = document.createElement("BUTTON");
 
         // Change the innerHTML to a sensible set of text (in this case donate)
-        donateButton.innerHTML = "Donate";
+        helpOutButton.innerHTML = "Help Out";
 
         // Change the class to the class for menu buttons and the id to donateButton so we can access it 
         // easier and it can assume previously defined css values
-        donateButton.setAttribute("class", "menuButton");
-        donateButton.setAttribute("id", "donateButton");
+        helpOutButton.setAttribute("class", "menuButton");
+        helpOutButton.setAttribute("id", "helpOutButton");
 
         // Change the onclick value to what we want (in this case a function to take us  to the donate page)
-        donateButton.onclick = donatePage;
+        helpOutButton.onclick = helpOutPage;
 
         // Append donateButton to the menu <div>
-        menu.appendChild(donateButton);
+        menu.appendChild(helpOutButton);
 
         // Move it into the perfect position
-        donateButton.style.transform = "translateX(-10px)";
+        helpOutButton.style.transform = "translateX(-10px)";
 
       
         // And also the same process for the home button
