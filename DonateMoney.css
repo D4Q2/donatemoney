@@ -29,7 +29,7 @@
 
   .menuButton
   {
-    width: 75px;   /* how many pixels wide */
+    width: 120px;   /* how many pixels wide */
     height: 30px;  /* how many pixels tall */
     float: right;  /* Puts it to the right of other elements */
     color: #010101; /* Text color */
