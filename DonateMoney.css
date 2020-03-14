@@ -126,7 +126,8 @@
       'title title title title title title'
       'subtitle subtitle subtitle subtitle subtitle subtitle'
       'twoWays twoWays twoWays twoWays twoWays twoWays'
-      'mailHeader mailHeader mailHeader emailHeader emailHeader emailHeader'
-      'mailText mailText mailText emailText emailText emailText'
-      'mailText mailText mailText emailText emailText emailText';
+      'mailHeader mailHeader mailHeader'
+      'mailText mailText mailText'
+      'emailHeader emailHeader emailHeader'
+      'emailText emailText emailText';
   }
