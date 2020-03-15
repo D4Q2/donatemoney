@@ -73,7 +73,7 @@
         hostDriveButton.setAttribute("class", "menuButton");
         hostDriveButton.setAttribute("id", "hostDriveButton");
         menu.appendChild(hostDriveButton);
-        hostDriveButton.style.transform = "translateX(-20px)";
+        hostDriveButton.style.transform = "translateX(-30px)";
         hostDriveButton.onclick = hostDrivePage;
         
         // And also the same process for the donation locations button
@@ -82,7 +82,7 @@
         donationLocationsButton.setAttribute("class", "menuButton");
         donationLocationsButton.setAttribute("id", "donationLocationsButton");
         menu.appendChild(donationLocationsButton);
-        donationLocationsButton.style.transform = "translateX(-30px)";
+        donationLocationsButton.style.transform = "translateX(-40px)";
         donationLocationsButton.onclick = donationLocationsPage;
      }
 
